@@ -1,7 +1,7 @@
 import unittest
 import json
 from fastapi.testclient import TestClient
-from main import app
+from main.py import app
 
 
 class TestApp(unittest.TestCase):
